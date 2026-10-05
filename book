@@ -1,0 +1,12 @@
+class Book:
+    def __init__(self, book_name: str, author_name: str, release: int):
+        self.book = book_name
+        self.author = author_name
+        self.release = release
+
+
+Cool_Book = Book("Cool Book", "Dylan Ward", 2006)
+
+print(Cool_Book.book)
+print(Cool_Book.author)
+print(Cool_Book.release)
